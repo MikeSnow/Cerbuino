@@ -20,7 +20,7 @@ namespace cocheCerbuinoBT
         {
             ruedaUpI1 = new OutputPort((Cpu.Pin)GHI.Hardware.FEZCerb.Pin.PC14, false);//D3
             ruedaUpI2 = new OutputPort((Cpu.Pin)GHI.Hardware.FEZCerb.Pin.PC15, false);//D4
-            ruedaUpD1 = new OutputPort((Cpu.Pin)GHI.Hardware.FEZCerb.Pin.PA10, false);//D5
+            ruedaUpD1 = new OutputPort((Cpu.Pin)GHI.Hardware.FEZCerb.Pin.PA10, false);//D6
             ruedaUpD2 = new OutputPort((Cpu.Pin)GHI.Hardware.FEZCerb.Pin.PC4, false);//D7
             ruedaBackI1 = new OutputPort((Cpu.Pin)GHI.Hardware.FEZCerb.Pin.PB13, false);//D8
             ruedaBackI2 = new OutputPort((Cpu.Pin)GHI.Hardware.FEZCerb.Pin.PA9, false);//D9
