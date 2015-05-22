@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gadgeteerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="3a606d0b-10ce-4dbb-9fb4-ffd209ee41ee" newModel="false" xmlns="http://schemas.microsoft.com/dsltools/GadgeteerDSL">
+  <gadgeteerHardware>
+    <gadgeteerModelHasGadgeteerHardware Id="adf3c1f8-4584-486b-a167-7d038661a3c8">
+      <mainboard Id="d32aaab4-431d-478a-89f6-240f05a39574" cachedDefinition="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;MainboardDefinition xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; Name=&quot;FEZCerbuinoBee&quot; Type=&quot;GHIElectronics.Gadgeteer.FEZCerbuinoBee&quot; HardwareVersion=&quot;1.2&quot; Image=&quot;C:\Program Files (x86)\GHI Electronics\GHI .NET Gadgeteer SDK\Mainboards\FEZCerbuinoBee\Resources\Image.jpg&quot; BoardWidth=&quot;85&quot; BoardHeight=&quot;57&quot; MinimumGadgeteerCoreVersion=&quot;2.42.500&quot; HelpUrl=&quot;http://www.ghielectronics.com/catalog/product/351&quot;&gt;&#xD;&#xA;  &lt;Power&gt;&#xD;&#xA;    &lt;PowerRequirements Voltage=&quot;3.3&quot;&gt;&#xD;&#xA;      &lt;TypicalCurrent&gt;0.093&lt;/TypicalCurrent&gt;&#xD;&#xA;      &lt;MaximumCurrent&gt;0.11&lt;/MaximumCurrent&gt;&#xD;&#xA;    &lt;/PowerRequirements&gt;&#xD;&#xA;    &lt;PowerRequirements Voltage=&quot;5&quot;&gt;&#xD;&#xA;      &lt;TypicalCurrent&gt;0&lt;/TypicalCurrent&gt;&#xD;&#xA;      &lt;MaximumCurrent&gt;0&lt;/MaximumCurrent&gt;&#xD;&#xA;    &lt;/PowerRequirements&gt;&#xD;&#xA;  &lt;/Power&gt;&#xD;&#xA;  &lt;ProvidedSockets&gt;&#xD;&#xA;    &lt;ProvidedSocket Orientation=&quot;180&quot; Left=&quot;79.5&quot; Top=&quot;16&quot; Label=&quot;1&quot; ConstructorParameter=&quot;1&quot;&gt;&#xD;&#xA;      &lt;Types&gt;&#xD;&#xA;        &lt;Type&gt;P&lt;/Type&gt;&#xD;&#xA;        &lt;Type&gt;S&lt;/Type&gt;&#xD;&#xA;        &lt;Type&gt;U&lt;/Type&gt;&#xD;&#xA;        &lt;Type&gt;Y&lt;/Type&gt;&#xD;&#xA;      &lt;/Types&gt;&#xD;&#xA;      &lt;SharedPinMaps /&gt;&#xD;&#xA;    &lt;/ProvidedSocket&gt;&#xD;&#xA;    &lt;ProvidedSocket Orientation=&quot;180&quot; Left=&quot;79.5&quot; Top=&quot;30&quot; Label=&quot;2&quot; ConstructorParameter=&quot;2&quot;&gt;&#xD;&#xA;      &lt;Types&gt;&#xD;&#xA;        &lt;Type&gt;A&lt;/Type&gt;&#xD;&#xA;        &lt;Type&gt;I&lt;/Type&gt;&#xD;&#xA;        &lt;Type&gt;K&lt;/Type&gt;&#xD;&#xA;        &lt;Type&gt;U&lt;/Type&gt;&#xD;&#xA;        &lt;Type&gt;Y&lt;/Type&gt;&#xD;&#xA;      &lt;/Types&gt;&#xD;&#xA;      &lt;SharedPinMaps&gt;&#xD;&#xA;        &lt;SharedPinMap SocketPin=&quot;8&quot; NetId=&quot;I2CSDA&quot; SharedOnly=&quot;false&quot; /&gt;&#xD;&#xA;        &lt;SharedPinMap SocketPin=&quot;9&quot; NetId=&quot;I2CSCL&quot; SharedOnly=&quot;false&quot; /&gt;&#xD;&#xA;      &lt;/SharedPinMaps&gt;&#xD;&#xA;    &lt;/ProvidedSocket&gt;&#xD;&#xA;    &lt;ProvidedSocket Orientation=&quot;180&quot; Left=&quot;79.5&quot; Top=&quot;44.5&quot; Label=&quot;3&quot; ConstructorParameter=&quot;3&quot;&gt;&#xD;&#xA;      &lt;Types&gt;&#xD;&#xA;        &lt;Type&gt;A&lt;/Type&gt;&#xD;&#xA;        &lt;Type&gt;O&lt;/Type&gt;&#xD;&#xA;        &lt;Type&gt;P&lt;/Type&gt;&#xD;&#xA;        &lt;Type&gt;Y&lt;/Type&gt;&#xD;&#xA;      &lt;/Types&gt;&#xD;&#xA;      &lt;SharedPinMaps /&gt;&#xD;&#xA;    &lt;/ProvidedSocket&gt;&#xD;&#xA;  &lt;/ProvidedSockets&gt;&#xD;&#xA;  &lt;Assemblies&gt;&#xD;&#xA;    &lt;Assembly MFVersion=&quot;4.2&quot; Name=&quot;GHIElectronics.Gadgeteer.FEZCerbuinoBee&quot; /&gt;&#xD;&#xA;  &lt;/Assemblies&gt;&#xD;&#xA;  &lt;LibrariesProvided&gt;&#xD;&#xA;    &lt;Assembly MFVersion=&quot;4.2&quot; Name=&quot;GHIElectronics.Gadgeteer.FEZCerbuinoBee&quot; /&gt;&#xD;&#xA;    &lt;Assembly MFVersion=&quot;4.3&quot; Name=&quot;GHIElectronics.Gadgeteer.FEZCerbuinoBee&quot; /&gt;&#xD;&#xA;  &lt;/LibrariesProvided&gt;&#xD;&#xA;&lt;/MainboardDefinition&gt;" name="FEZCerbuinoBee">
+        <sockets>
+          <gadgeteerHardwareHasSockets Id="c22323ee-e451-4c16-ad78-5b2a491f1ad7">
+            <socket Id="9c89a3df-a1df-47ba-86d7-bea518bde23f" label="1" />
+          </gadgeteerHardwareHasSockets>
+          <gadgeteerHardwareHasSockets Id="4cb7ed72-8ebf-4198-adf3-ce331e56eade">
+            <socket Id="47575c18-a3aa-48ba-b138-a888c6af0f67" label="2" />
+          </gadgeteerHardwareHasSockets>
+          <gadgeteerHardwareHasSockets Id="a5a7d994-0278-4f84-9e59-f19359d50176">
+            <socket Id="4a3a72ca-7843-47ed-a770-ee4eabe8e9b7" label="3" />
+          </gadgeteerHardwareHasSockets>
+        </sockets>
+      </mainboard>
+    </gadgeteerModelHasGadgeteerHardware>
+  </gadgeteerHardware>
+  <comments>
+    <gadgeteerModelHasComments Id="9db7f74e-b178-42d0-b770-250dae04454c">
+      <comment Id="305c1f5e-699f-4908-bae0-dddd6b331663" text="Tip: To have the designer connect all modules for you, right-click the diagram, and then click 'Connect all modules'." />
+    </gadgeteerModelHasComments>
+  </comments>
+</gadgeteerModel>
